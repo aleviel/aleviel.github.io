@@ -8,6 +8,6 @@
 
 3. 
 
----1. [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index.html "Шапка с навигацией")
+* [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index.html "Шапка с навигацией")
 
----2. [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index2.html "Позиционирование блока")
+* [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index2.html "Позиционирование блока")
