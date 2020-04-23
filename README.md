@@ -8,9 +8,9 @@
 
 3. 
 
-   * [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index.html "Шапка с навигацией")
+   1. [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index.html "Шапка с навигацией")
 
-   * [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index2.html "Позиционирование блока")
+   2. [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index2.html "Позиционирование блока")
 
 4. [Урок-7 Верстка первого макета](aleviel.github.io/module_3-lesson-7/ "Верстка первого макета")
 
