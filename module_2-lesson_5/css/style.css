@@ -1,0 +1,20 @@
+.head {
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+}
+.strong {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+
+.nav a {
+    text-decoration: none;
+  
+}
+
+.crossed { 
+    text-decoration: line-through;
+}
