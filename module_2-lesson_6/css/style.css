@@ -1,0 +1,41 @@
+.header {
+    height: 110px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.nav-bar {
+    position: absolute;
+    width: 88%;
+    left: 100px;
+    top: 15px;
+}
+
+.logo {
+    display: inline-block;
+    color: white;
+}
+
+.nav-box {
+    display: inline-block;
+    position: absolute;
+    left: 70%;
+    top: 35px;
+}
+
+.nav-box a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.main {
+    margin-top: 120px;
+    width: 85%;
+    text-align: justify;
+    position: absolute;
+    left: 100px;
+}

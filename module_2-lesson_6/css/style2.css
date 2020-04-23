@@ -1,0 +1,17 @@
+body {
+    background: rgb(172, 148, 148);
+}
+
+.box {
+    box-sizing: border-box;
+    background: white;
+    width: 300px;
+    height: 400px;
+    border: solid grey 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -200px;
+    padding: 20px 30px;
+}

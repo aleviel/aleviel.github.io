@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.section {
+    padding: 30px 11%;
+}
+
+.header {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.header span {
+    font-weight: 400;
+    display: block;
+}
+
+.header strong {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.form-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.video,
+.form {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form {
+    border: 5px solid #3c3cdd;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.form-input {
+    width: 300px;
+    font-size: 18px;
+    display: block;
+    border: 1px solid #333333;
+    padding: 17px;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3c3cdd;
+    border: none;
+    display: block;
+    margin: 10px auto;
+}
+
+.col {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.feature-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.feature {
+    text-align: center;
+    margin: 80px auto;
+}
+
+.clients {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.clients-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.col-client {
+    display: inline-block;
+    margin: 15px 10px;
+}
