@@ -20,5 +20,6 @@
 
 7. [Урок-13 Адаптивная(pixel perfect) верстка](aleviel.github.io/module_5-lesson-13/ "Адаптивная верстка")
 
-
 8. [Практика. Часть-1 - верстка шапки](aleviel.github.io/module_5-practice-part_1 "Верстаем шапку")
+
+9. [Урок-14 Подключение шрифтов](aleviel.github.io/module_5-lesson-14 "Подключение шрифтов")
