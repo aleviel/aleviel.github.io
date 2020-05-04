@@ -1,0 +1,86 @@
+$color: #03a3d8
+*
+    box-sizing: border-box
+body 
+    font-family: 'Myriad Pro', sans-serif
+    font-size: 20px
+    background: url(../img/main-tab-bg.jpg) no-repeat 
+    background-size: cover
+.form-block 
+    position: absolute
+    top: 20px
+    left: 50%
+    transform: translateX(-50%)
+    width: 630px
+    height: 445px    
+    padding: 0 25px
+.navigation
+    height: 40px
+    padding-left: 24px
+.nav-link
+    background-color: white
+    margin-right: 10px
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link 
+    color: #fff
+    background-color: $color
+    border-radius: 5px 5px 2px 2px  
+.content
+    height: 100%
+    background-color: #000  
+    padding: 40px 55px 35px 45px 
+    border-radius: 10px
+    &-block
+        position: relative
+        height: 405px
+        background-color: $color
+        padding: 23px
+        border-radius: 10px 
+.form-control
+    color: white
+    height: 60px    
+    background-color: #1a1919
+    border: none    
+    padding: 23px
+    margin-top: 30px
+    &:focus
+        background-color: #1a1919
+        color: white
+    &::-webkit-input-placeholder 
+        color: white
+.form-reg
+    margin-top: 15px
+.help   
+    display: block
+    font-size: 15px
+    color: #971502
+    margin: 20px 0 20px 20px
+    &:hover
+        text-decoration: none
+.form-check    
+    margin-left: 20px
+    line-height: 18px
+    .form-check-label
+        font-size: 15px
+        color: #1a1919
+.button    
+    height: 50px
+    color: white
+    border: none
+    font-size: 24px
+    padding-bottom: 10px
+    transition: all 0.2s
+    &-cell
+        position: absolute
+        right: -18px
+        bottom: 35px
+    &-enter
+        width: 137px
+        background: url(../img/button-enter.png) no-repeat center
+    &-reg
+        width: 181px
+        background: url(../img/button-reg.png) no-repeat center
+        background-size: contain        
+    &:hover
+        transform: scale(1.05)
+    &:focus
+        outline: none
