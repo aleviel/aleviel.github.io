@@ -46,4 +46,4 @@
 
 17. [Практика. Часть-6 - Верстка экрана с ценами](aleviel.github.io/module_5-practice-part_6 "Верстка экрана с ценами")
 
-18. [Урок-19 Анимация](aleviel.github.io/module_5-lesson-17 "wow animation")
+18. [Урок-19 Анимация](aleviel.github.io/module_5-lesson-19 "wow animation")
