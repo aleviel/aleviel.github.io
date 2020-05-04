@@ -43,3 +43,5 @@
     01. [Урок-18 Аккордеон](aleviel.github.io/module_5-lesson-18/index.html "Аккордеон")
 
     02. [Урок-18 Табы](aleviel.github.io/module_5-lesson-18/index2.html "Табы")
+
+17. [Практика. Часть-6 - Верстка экрана с ценами](aleviel.github.io/module_5-practice-part_6 "Верстка экрана с ценами")
