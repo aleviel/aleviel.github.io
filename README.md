@@ -6,9 +6,7 @@
 
 02. [Урок-5 Основы CSS](aleviel.github.io/module_2-lesson_5/ "Оформляем мини-книгу")
 
-03.
-
-    01. [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index.html "Шапка с навигацией")
+03. 01. [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index.html "Шапка с навигацией")
 
     02. [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index2.html "Позиционирование блока")
 
@@ -38,9 +36,7 @@
 
 16. [Практика. Часть-5 - Всплывающее окно](aleviel.github.io/module_5-practice-part_5 "Всплывающее окно")
 
-17.
-
-    01. [Урок-18 Аккордеон](aleviel.github.io/module_5-lesson-18/index.html "Аккордеон")
+17. 01. [Урок-18 Аккордеон](aleviel.github.io/module_5-lesson-18/index.html "Аккордеон")
 
     02. [Урок-18 Табы](aleviel.github.io/module_5-lesson-18/index2.html "Табы")
 
