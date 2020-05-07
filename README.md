@@ -6,8 +6,7 @@
 
 02. [Урок-5 Основы CSS](aleviel.github.io/module_2-lesson_5/ "Оформляем мини-книгу")
 
-03. 
-
+03.
     01. [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index.html "Шапка с навигацией")
 
     02. [Урок-6 Позиционирование в CSS](aleviel.github.io/module_2-lesson_6/index2.html "Позиционирование блока")
@@ -24,26 +23,27 @@
 
 09. [Урок-14 Подключение шрифтов](aleviel.github.io/module_5-lesson-14 "Подключение шрифтов")
 
-08. [Практика. Часть-2 - Верстка первый экран](aleviel.github.io/module_5-practice-part_2 "Верстаем первый экран")
+10. [Практика. Часть-2 - Верстка первый экран](aleviel.github.io/module_5-practice-part_2 "Верстаем первый экран")
 
-10. [Урок-15 Псевдоклассы и псевдоэлементы.](aleviel.github.io/module_5-lesson-15 "Псевдоклассы и псевдоэлементы.")
+11. [Урок-15 Псевдоклассы и псевдоэлементы.](aleviel.github.io/module_5-lesson-15 "Псевдоклассы и псевдоэлементы.")
 
-11. [Практика. Часть-3 - Эффекты при наведении и адаптив](aleviel.github.io/module_5-practice-part_3 "Эффекты, адаптив, медиа-запросы")
+12. [Практика. Часть-3 - Эффекты при наведении и адаптив](aleviel.github.io/module_5-practice-part_3 "Эффекты, адаптив, медиа-запросы")
 
-12. [Урок-16 Слайдер.](aleviel.github.io/module_5-lesson-16 "Слайдер.")
+13. [Урок-16 Слайдер.](aleviel.github.io/module_5-lesson-16 "Слайдер.")
 
-13. [Практика. Часть-4 - Верстка второго экрана. Слайдер](aleviel.github.io/module_5-practice-part_4 "Верстаем второй экран")
+14. [Практика. Часть-4 - Верстка второго экрана. Слайдер](aleviel.github.io/module_5-practice-part_4 "Верстаем второй экран")
 
-14. [Урок-17 Модальные (всплывающие) окна.](aleviel.github.io/module_5-lesson-17 "Модальные окна.")
+15. [Урок-17 Модальные (всплывающие) окна.](aleviel.github.io/module_5-lesson-17 "Модальные окна.")
 
-15. [Практика. Часть-5 - Всплывающее окно](aleviel.github.io/module_5-practice-part_5 "Всплывающее окно")
+16. [Практика. Часть-5 - Всплывающее окно](aleviel.github.io/module_5-practice-part_5 "Всплывающее окно")
 
-16. 
-
+17.
     01. [Урок-18 Аккордеон](aleviel.github.io/module_5-lesson-18/index.html "Аккордеон")
 
     02. [Урок-18 Табы](aleviel.github.io/module_5-lesson-18/index2.html "Табы")
 
-17. [Практика. Часть-6 - Верстка экрана с ценами](aleviel.github.io/module_5-practice-part_6 "Верстка экрана с ценами")
+18. [Практика. Часть-6 - Верстка экрана с ценами](aleviel.github.io/module_5-practice-part_6 "Верстка экрана с ценами")
 
-18. [Урок-19 Анимация](aleviel.github.io/module_5-lesson-19 "wow animation")
+19. [Урок-19 Анимация](aleviel.github.io/module_5-lesson-19 "wow animation")
+
+20. [Практика. Часть-7 - Верстка экрана с отзывами](aleviel.github.io/module_5-practice-part_7 "Верстка экрана с отзывами")
