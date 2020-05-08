@@ -29,4 +29,4 @@
 21. [Урок-20 Видео-фон](aleviel.github.io/module_5-lesson-20 "vide-bg")
 22. [Практика. Часть-8 - Адаптив экрана с отзывами. ](aleviel.github.io/module_5-practice-part_8 "Адаптив экрана и адаптив")
 23. [Урок-21 Parallax/Rellax](aleviel.github.io/module_5-lesson-21 "фигня какая-то кривая.")
-24. [Практика. Часть-9 - Верстка экрана со схемой работы и работ](aleviel.github.io/module_5-practice-part_8 "Верстка и адаптив")
+24. [Практика. Часть-9 - Верстка экрана со схемой работы и работ](aleviel.github.io/module_5-practice-part_9 "Верстка и адаптив")
