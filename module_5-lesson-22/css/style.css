@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=cyrillic");
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-content {
+  position: relative;
+}
+
+.contacts {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  transform: translate(-50%);
+  text-align: center;
+  height: 430px;
+  width: 380px;
+  background-color: #c60b0b;
+  padding: 70px;
+  color: #fff;
+}
+
+.contacts-header {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.contacts-info {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.contacts a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer {
+  position: relative;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-info-leftBlock {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer-info-midBlock {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer-info-rightBlock {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer-info-left {
+  display: inline-block;
+  font-size: 16px;
+  text-align: left;
+  margin: 0px 0px 0px 20px;
+  vertical-align: middle;
+}
+
+.footer-info-mid {
+  text-align: center;
+}
+
+.footer-info-right {
+  text-align: right;
+}
+
+.footer-info-tel {
+  text-align: right;
+  font-size: 22px;
+}
+
+@media (max-width: 767px) {
+  .footer-info-leftBlock {
+    text-align: center;
+  }
+  .footer-info-mid {
+    text-align: center;
+  }
+  .footer-info-right {
+    text-align: center;
+  }
+  .footer-info-tel {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-info-leftBlock {
+    text-align: center;
+  }
+  .footer-info-mid {
+    text-align: center;
+  }
+  .footer-info-right {
+    text-align: center;
+  }
+  .footer-info-tel {
+    text-align: center;
+  }
+  .contacts {
+    display: none;
+  }
+}
