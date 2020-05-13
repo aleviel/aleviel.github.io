@@ -31,4 +31,4 @@
 23. [Урок-21 Parallax/Rellax](aleviel.github.io/module_5-lesson-21 "фигня какая-то кривая.")
 24. [Практика. Часть-9 - Верстка экрана со схемой работы и работ](aleviel.github.io/module_5-practice-part_09 "Верстка и адаптив")
 25. [Урок-22 Карты для сайта](aleviel.github.io/module_5-lesson-22 "Гео-карты.")
-26. [Практика. Часть-10 - Верстка блока "развиваем сомнения"](aleviel.github.io/module_5-practice-part_10 "Верстка и адаптив")
+26. [Практика. Часть-10 - Верстка блока "развеиваем сомнения"](aleviel.github.io/module_5-practice-part_10 "Верстка и адаптив")
