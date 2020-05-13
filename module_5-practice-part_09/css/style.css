@@ -1,0 +1,715 @@
+@font-face {
+  font-family: 'ProximaNovaBl';
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype"), url("../fonts/ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaRg';
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff2") format("woff2"), url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype"), url("../fonts/ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+}
+
+section {
+  padding: 10rem 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+}
+
+.header {
+  height: 7rem;
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+}
+
+.section-header {
+  font-size: 3.6rem;
+  margin-bottom: 13rem;
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+}
+
+.button {
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #f8af01;
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+
+.button-wrap {
+  display: table;
+  height: 7rem;
+  width: 100%;
+}
+
+.button-wrap-form {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.button:hover {
+  background-color: #df9d01;
+}
+
+.phone-link {
+  display: inline-block;
+  font-size: 2rem;
+  line-height: 7rem;
+  font-weight: 900;
+  color: #1a1820;
+}
+
+.phone-link:hover {
+  text-decoration: none;
+}
+
+.main {
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+  background: #ffffff url(../img/main-bg.jpg) no-repeat center center/cover;
+}
+
+.main-content {
+  margin-top: 10rem;
+}
+
+.main-title {
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 1.4;
+  margin-bottom: 5rem;
+}
+
+.main-subtitle {
+  font-size: 2.4rem;
+  margin-bottom: 6rem;
+}
+
+.main-price {
+  display: inline-block;
+  padding: 3rem 5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: #70c849;
+  margin-bottom: 3rem;
+}
+
+.main-price strong {
+  font-size: 3rem;
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+}
+
+.main-trigger {
+  display: block;
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.main-form {
+  text-align: center;
+  background-color: white;
+  padding: 4rem 4rem;
+}
+
+.main-form-title {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+.main-form-title strong {
+  font-size: 1.9rem;
+}
+
+.main-form label {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: white;
+}
+
+.main-form-input {
+  display: block;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 5rem;
+  padding: 1.7rem;
+  border: 1px solid #dddddd;
+  border-radius: 7px;
+  margin-bottom: 2.5rem;
+}
+
+.main-form-button {
+  display: block;
+  width: 100%;
+  height: 5.5rem;
+  font-size: 1.6rem;
+}
+
+.main-form-small {
+  display: block;
+  margin-top: 1.5rem;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 1.8rem;
+  background-color: #fff;
+  padding: 4rem 6rem;
+}
+
+.popup-close {
+  position: absolute;
+  top: -4rem;
+  right: -3rem;
+  font-size: 4rem;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+}
+
+.popup-title {
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+}
+
+.popup-text {
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+}
+
+.popup-form {
+  padding: 0;
+  margin-top: 3rem;
+}
+
+.popup-textarea {
+  min-height: 10rem;
+}
+
+.features {
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+}
+
+.features-slider-header {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.features-slider-text {
+  display: inline-block;
+  width: 85%;
+  font-size: 1.4rem;
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+}
+
+.features-img {
+  height: 8rem;
+  margin-bottom: 7rem;
+}
+
+.features-img img {
+  margin: 0 auto;
+}
+
+.features-gicema {
+  color: #70c849;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  height: 2rem;
+  width: 2rem;
+  z-index: 100;
+  border: none;
+}
+
+.prev {
+  left: 0;
+  background: url(../img/ar-left.svg) no-repeat center center/cover;
+}
+
+.next {
+  right: 0;
+  background: url(../img/ar-right.svg) no-repeat center center/cover;
+}
+
+.slick-active, .main-form-input {
+  outline: none;
+}
+
+.arrow:active, .arrow:focus, .button:active, .button:focus, .feedback-slider-button:active, .feedback-slider-button:focus {
+  outline: none !important;
+}
+
+.price {
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+  background: #70c849 url(../img/price-bg.jpg);
+}
+
+.price-header {
+  font-size: 3.6rem;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.price-subtitle {
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+  font-size: 1.7rem;
+  color: white;
+  margin-bottom: 9rem;
+}
+
+.price button {
+  height: 5.5rem;
+}
+
+.price-block {
+  background-color: white;
+  box-shadow: 0px 14px 21px 0px rgba(0, 0, 0, 0.17);
+  min-height: 60rem;
+  padding: 5rem 2rem;
+}
+
+.price-block-header-wrapper {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.price-block-tag {
+  display: block;
+  font-size: 1.9rem;
+}
+
+.price-block-tag strong {
+  font-size: 3rem;
+}
+
+.price-block-img-cell {
+  display: block;
+  position: relative;
+  padding-top: 200px;
+}
+
+.price-block-img-cell img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.price-block button {
+  width: 60%;
+  height: 5.5rem;
+}
+
+.price-list {
+  min-height: 15rem;
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+  font-size: 1.6rem;
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.price-list li::before {
+  content: '';
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background: url(../img/check-icon.svg) no-repeat center;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.feedback {
+  position: relative;
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+  background: url(../img/feedback-bg.jpg) no-repeat center center/cover;
+}
+
+.feedback-header {
+  text-align: center;
+}
+
+.feedback-slider {
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+  background: white;
+  box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.11);
+  padding: 6rem;
+  margin-bottom: 6rem;
+}
+
+.feedback-slider-item-text {
+  font-size: 1.6rem;
+}
+
+.feedback-slider-item-media {
+  margin-top: 5rem;
+}
+
+.feedback-slider-item-media-body p {
+  font-size: 1.4rem;
+}
+
+.feedback-slider-item-media-body h5 {
+  font-size: 1.6rem;
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+}
+
+.feedback-slider-item-media-text {
+  position: relative;
+  font-style: italic;
+  font-size: 1.5rem;
+  border: 2px #70c849 solid;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.feedback-slider-item-media-text::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -2rem;
+  left: 3rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border: 2px #70c849 solid;
+  border-bottom: none;
+  border-top-right-radius: 100px;
+}
+
+.feedback-slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5rem;
+  height: 6rem;
+  background: #70c849;
+  border: none;
+}
+
+.feedback-slider-button img {
+  width: 30%;
+}
+
+.feedback-slider-button-prev {
+  left: -5rem;
+}
+
+.feedback-slider-button-next {
+  right: -5rem;
+}
+
+.feedback-form {
+  background: white;
+  box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.11);
+  padding: 5rem 10rem;
+}
+
+.feedback-form-title {
+  font-size: 2.2rem;
+  margin-bottom: 4rem;
+}
+
+.feedback-form-input {
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+  display: inline-block;
+}
+
+.feedback-form label {
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+}
+
+.feedback-form-button {
+  height: 5.5rem;
+}
+
+.feedback-hand {
+  position: absolute;
+  left: -10rem;
+  bottom: 0;
+  max-width: 80rem;
+}
+
+.scheme {
+  background: #fff url(../img/scheme-bg.png) no-repeat bottom -11rem right/70rem;
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+}
+
+.scheme-header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.scheme-subtitle {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+}
+
+.scheme-item {
+  margin-top: 6rem;
+}
+
+.scheme-item-header {
+  font-size: 2.2rem;
+  margin-top: 3.8rem;
+}
+
+.scheme-item-text {
+  font-size: 1.7rem;
+  line-height: 1.8rem;
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+  margin-top: 2.8rem;
+}
+
+.allInclusive {
+  background-color: #f5f5f5;
+}
+
+.allInclusive-header {
+  text-align: center;
+  color: #70c849;
+  margin-bottom: 4rem;
+}
+
+.allInclusive-subtitle {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+  margin-bottom: 10rem;
+}
+
+.allInclusive-circle {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  background-color: #70c849;
+  border-radius: 50%;
+}
+
+.allInclusive-circle-border {
+  display: inline-block;
+  height: 5rem;
+  width: 5rem;
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+  font-size: 2rem;
+  line-height: 4rem;
+  text-align: center;
+  color: white;
+  padding: 0.2rem;
+  border: 2px solid #70c849;
+  border-radius: 50%;
+}
+
+.allInclusive-media {
+  min-height: 15rem;
+}
+
+.allInclusive-media-left {
+  margin-right: 2rem;
+}
+
+.allInclusive-media-title {
+  font-size: 1.6rem;
+  font-family: "ProximaNovaBl", Tahoma, sans-serif;
+}
+
+.allInclusive-media-text {
+  font-size: 1.3rem;
+  font-family: "ProximaNovaRg", Tahoma, sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .price-block-header-wrapper {
+    height: 2rem;
+  }
+  .feedback-header {
+    margin-bottom: 10rem;
+  }
+  .feedback-form {
+    padding: 3rem 5rem;
+  }
+  .feedback-form-title {
+    font-size: 2.1rem;
+  }
+  .feedback-hand {
+    max-width: 35rem;
+  }
+  .scheme {
+    background: #fff url(../img/scheme-bg.png) no-repeat bottom -11rem right -25rem/70rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .phone-block {
+    text-align: center;
+  }
+  .main {
+    background: #ffffff url(../img/main-bg.jpg) no-repeat top right/cover;
+  }
+  .main-content {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .main-title {
+    margin-bottom: 3rem;
+  }
+  .main-subtitle {
+    margin-bottom: 3rem;
+  }
+  .main-form {
+    margin-top: 5rem;
+  }
+  .price-header {
+    margin-bottom: 3rem;
+  }
+  .price-subtitle {
+    margin-bottom: 5rem;
+  }
+  .price-block {
+    padding-bottom: 0;
+  }
+  .price-block-header-wrapper {
+    margin-bottom: 5rem;
+  }
+  .price-block-img-cell {
+    padding-top: 100px;
+  }
+  .price-block-img-cell img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .price-block button {
+    width: 80%;
+  }
+  .price-list {
+    min-height: 20rem;
+  }
+  .fotorama {
+    margin-bottom: 2rem;
+  }
+  .feedback-hand {
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    background: #ffffff url(../img/main-bg.jpg) no-repeat top right/cover;
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 15rem;
+    text-align: center;
+  }
+  .main-title {
+    margin-bottom: 2rem;
+  }
+  .main-subtitle {
+    margin-bottom: 3rem;
+  }
+  .main-form {
+    margin-top: 5rem;
+  }
+  .button-wrap-form {
+    text-align: center;
+  }
+  .price button {
+    margin-bottom: 4rem;
+  }
+  .price-block {
+    margin-bottom: 2rem;
+  }
+  .price-block-header-wrapper {
+    margin-bottom: 2rem;
+  }
+  .price-block-img-cell {
+    padding-top: 200px;
+  }
+  .price-block-img-cell img {
+    max-height: 80%;
+    max-width: 80%;
+  }
+  .price-list {
+    min-height: 15rem;
+  }
+  .scheme {
+    background: none;
+  }
+  .scheme-item {
+    text-align: center;
+  }
+  .allInclusive-media {
+    min-height: 8rem;
+  }
+  .allInclusive-header {
+    margin-bottom: 4rem;
+  }
+  .allInclusive-subtitle {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .main {
+    background: #ffffff url(../img/main-bg.jpg) no-repeat top right/cover;
+  }
+  .main-title {
+    font-size: 2rem;
+  }
+  .main-subtitle {
+    font-size: 1.5rem;
+  }
+  .feedback-slider-button img {
+    width: 30%;
+  }
+  .feedback-slider-button-prev {
+    left: 0rem;
+  }
+  .feedback-slider-button-next {
+    right: 0rem;
+  }
+}
