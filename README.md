@@ -34,3 +34,4 @@
 25. [Урок-22 Карты для сайта](https://aleviel.github.io/module_5-lesson_22 "Гео-карты.")
 26. [Практика. Часть-10 - Верстка блока "развеиваем сомнения"](https://aleviel.github.io/module_5-practice-part_10 "Верстка и адаптив")
 27. [Практика. Часть-11 - Верстка блока с материалами](https://aleviel.github.io/module_5-practice-part_11 "Верстка и адаптив")
+28. [Урок-23 Страница для хостинга](https://aleviel.github.io/module_5-lesson_23 "Хостинг.")
