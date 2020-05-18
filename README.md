@@ -35,6 +35,7 @@
 26. [Практика. Часть-10 - Верстка блока "развеиваем сомнения"](https://aleviel.github.io/module_6-practice-part_10/ "Верстка и адаптив")
 27. [Урок-23 Страница для хостинга](https://aleviel.github.io/module_6-lesson_23/ "Хостинг.")
 28. [Практика. Часть-11 - Верстка блока с материалами](https://aleviel.github.io/module_6-practice-part_11/ "Верстка и адаптив")
-29. [Урок-24 Яндекс метрика](https://aleviel.github.io/module_6-lesson_24/ "метрика.")
+29. [Урок-24 Яндекс метрика](https://aleviel.github.io/module_6-lesson_24/ "Метрика.")
 30. [Практика. Часть-12 - Верстка блока "экскурсия" и "доп"](https://aleviel.github.io/module_6-practice-part_12/ "Верстка и адаптив")
+31. [Урок-25 Отправка из формы](https://aleviel.github.io/module_6-lesson_25/ "Отправка формы.")
 
