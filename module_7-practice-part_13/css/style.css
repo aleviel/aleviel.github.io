@@ -745,7 +745,7 @@ body {
 
 .contacts {
   font-family: "ProxamaNovaRg", Tahoma, sans-serif;
-  background: url(/img/contacts-bg.png) no-repeat center/cover;
+  background: url(../img/contacts-bg.png) no-repeat center/cover;
 }
 
 .contacts-header {
