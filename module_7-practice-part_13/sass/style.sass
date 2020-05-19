@@ -1,0 +1,679 @@
+@import "vars"
+*
+    box-sizing: border-box
+body 
+    font-family: "ProximaNovaRg", Tahoma, sans-serif
+.header
+    height: 7rem  
+    font-family: "ProximaNovaBl", Tahoma, sans-serif      
+.section 
+    &-header
+        font-size: 3.6rem        
+        margin-bottom: 13rem
+        font-family: "ProximaNovaBl", Tahoma, sans-serif  
+.button
+    padding: 1rem 3rem       
+    font-size: 1.2rem
+    text-transform: uppercase  
+    background-color: $button-color   
+    color: white
+    border: none    
+    border-radius: 7px
+    &-wrap
+        display: table
+        height: 7rem
+        width: 100%
+        &-form
+            display: table-cell
+            vertical-align: middle
+            text-align: right   
+    &:hover
+        background-color: darken($button-color, 5%)
+.phone-link
+    display: inline-block
+    font-size: 2rem
+    line-height: 7rem    
+    font-weight: 900
+    color: $text-color
+    &:hover
+        text-decoration: none    
+.main    
+    padding-top: 3rem
+    padding-bottom: 10rem
+    background: #ffffff url(../img/main-bg.jpg) no-repeat center center/cover  
+    &-content
+        margin-top: 10rem
+    &-title 
+        font-family: "ProximaNovaBl", Tahoma, sans-serif          
+        text-transform: uppercase
+        font-size: 4rem
+        line-height: 1.4
+        margin-bottom: 5rem
+    &-subtitle
+        font-size: 2.4rem
+        margin-bottom: 6rem
+    &-price
+        display: inline-block
+        padding: 3rem 5rem
+        font-size: 1.8rem
+        text-align: center
+        background-color: $icon-green
+        margin-bottom: 3rem
+        strong
+            font-size: 3rem
+            font-family: "ProximaNovaBl", Tahoma, sans-serif         
+    &-trigger
+        display: block 
+        font-family: "ProximaNovaBl", Tahoma, sans-serif    
+        font-size: 2.2rem
+        text-transform: uppercase
+    &-form        
+        text-align: center
+        background-color: white
+        padding: 4rem 4rem               
+        &-title 
+            font-size: 1.8rem     
+            margin-bottom: 4rem  
+            strong
+                font-size: 1.9rem
+        label
+            position: absolute
+            display: inline-block   
+            left: 50%
+            transform: translateX(-50%) translateY(-50%)   
+            padding: 0.5rem 
+            font-size: 1.3rem  
+            background-color: white 
+        &-input
+            display: block  
+            font-size: 1.5rem     
+            width: 100%
+            height: 5rem
+            padding: 1.7rem     
+            border: 1px solid #dddddd
+            border-radius: 7px
+            margin-bottom: 2.5rem
+        &-button
+          display: block
+          width: 100%
+          height: 5.5rem          
+          font-size: 1.6rem
+        &-small
+            display: block
+            margin-top: 1.5rem
+.popup
+    display: none
+    position: fixed
+    left: 0
+    top: 0
+    right: 0
+    bottom: 0
+    width: 100%
+    height: 100%
+    z-index: 9
+    background-color: rgba(0, 0, 0, 0.7)
+    &-content
+        position: fixed
+        left: 50%
+        top: 10%
+        transform: translateX(-50%) 
+        text-align: center
+        font-size: 1.8rem
+        background-color: #fff      
+        padding: 4rem 6rem            
+    &-close
+        position: absolute
+        top: -4rem
+        right: -3rem
+        font-size: 4rem
+        color: #fff
+        background-color: transparent
+        border: none 
+    &-title
+        font-family: "ProximaNovaBl", Tahoma, sans-serif     
+    &-text
+         font-family: "ProximaNovaRg", Tahoma, sans-serif
+    &-form
+        padding: 0
+        margin-top: 3rem 
+    &-textarea
+        min-height: 10rem   
+.features
+    font-family: "ProximaNovaBl", Tahoma, sans-serif     
+    &-slider
+        &-header
+            font-size: 2rem            
+            margin-bottom: 4rem
+        &-text  
+            display: inline-block
+            width: 85%
+            font-size: 1.4rem
+            font-family: "ProximaNovaRg", Tahoma, sans-serif                
+    &-img
+        height: 8rem
+        margin-bottom: 7rem
+        img
+            margin: 0 auto
+    &-gicema
+        color: $icon-green
+.arrow
+    position: absolute
+    top: 50%
+    height: 2rem
+    width: 2rem
+    z-index: 100
+    border: none     
+.prev
+    left: 0 
+    background: url(../img/ar-left.svg) no-repeat center center /cover    
+.next
+    right: 0
+    background: url(../img/ar-right.svg) no-repeat center center /cover  
+.slick-active, .main-form-input
+    outline: none
+.arrow, .button, .feedback-slider-button
+    &:active, &:focus        
+        outline: none !important   
+.price
+    font-family: "ProximaNovaBl", Tahoma, sans-serif  
+    background: $icon-green url(../img/price-bg.jpg) 
+    &-header
+        font-size: 3.6rem
+        color: white
+        margin-bottom: 5rem 
+    &-subtitle
+        font-family: "ProximaNovaRg", Tahoma, sans-serif  
+        font-size: 1.7rem
+        color: white
+        margin-bottom: 9rem
+    button
+        height: 5.5rem
+    &-block 
+        background-color: white
+        box-shadow: 0px 14px 21px 0px rgba(0, 0, 0, 0.17)
+        min-height: 60rem  
+        padding: 5rem 2rem
+        &-header-wrapper
+            font-size: 1.8rem            
+            margin-bottom: 2rem
+        &-tag
+            display: block
+            font-size: 1.9rem
+            strong
+                font-size: 3rem
+        &-img-cell    
+            display: block
+            position: relative
+            padding-top: 200px                  
+            img                 
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%, -50%)
+                max-height: 80%
+                max-width: 80%
+        button
+            width: 60%
+            height: 5.5rem
+    &-list
+        min-height: 15rem        
+        font-family: "ProximaNovaRg", Tahoma, sans-serif
+        font-size: 1.6rem          
+        list-style: none
+        padding: 0
+        margin-top: 2rem
+        li
+            &::before
+                content: ''
+                display: inline-block
+                width: 1.4rem
+                height: 1.4rem
+                background: url(../img/check-icon.svg) no-repeat center
+                background-size: 100%
+                vertical-align: middle
+                margin-right: 1rem 
+.feedback
+    position: relative
+    font-family: "ProximaNovaBl", Tahoma, sans-serif
+    background: url(../img/feedback-bg.jpg) no-repeat center center /cover
+    &-header        
+        text-align: center
+    &-slider   
+        font-family: "ProximaNovaRg", Tahoma, sans-serif   
+        background: white
+        box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.11)
+        padding: 6rem
+        margin-bottom: 6rem
+        &-item  
+            &-text 
+                font-size: 1.6rem  
+            &-media 
+                margin-top: 5rem
+                &-body                    
+                    p
+                        font-size: 1.4rem   
+                    h5
+                        font-size: 1.6rem
+                        font-family: "ProximaNovaBl", Tahoma, sans-serif
+                &-text
+                    position: relative
+                    font-style: italic
+                    font-size: 1.5rem
+                    border: 2px $icon-green solid
+                    padding: 2rem
+                    margin-top: 2rem
+                    &::before
+                        content: ""
+                        display: block
+                        position: absolute
+                        top: -2rem
+                        left: 3rem
+                        width: 2rem
+                        height: 2rem
+                        background-color: white
+                        border: 2px $icon-green solid
+                        border-bottom: none
+                        border-top-right-radius: 100px
+        &-button
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            width: 5rem
+            height: 6rem
+            background: $icon-green   
+            border: none
+            img
+                width: 30%
+            &-prev
+                left: -5rem   
+            &-next
+                right: -5rem  
+    &-form        
+        background: white
+        box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.11)
+        padding: 5rem 10rem
+        &-title            
+            font-size: 2.2rem
+            margin-bottom: 4rem
+        &-input
+            font-family: "ProximaNovaRg", Tahoma, sans-serif
+            display: inline-block
+        label
+            font-family: "ProximaNovaRg", Tahoma, sans-serif
+        &-button
+            height: 5.5rem            
+    &-hand
+        position: absolute
+        left: -10rem
+        bottom: 0
+        max-width: 80rem
+.scheme
+    background: #fff url(../img/scheme-bg.png) no-repeat bottom -11rem right /70rem
+    font-family: "ProximaNovaBl", Tahoma, sans-serif 
+    &-header
+        text-align: center
+        margin-bottom: 5rem
+    &-subtitle
+        text-align: center
+        font-size: 1.6rem
+        font-family: "ProximaNovaRg", Tahoma, sans-serif 
+    &-item
+        margin-top: 6rem
+        &-header
+            font-size: 2.2rem   
+            margin-top: 3.8rem         
+        &-text
+            font-size: 1.7rem
+            line-height: 1.8rem
+            font-family: "ProximaNovaRg", Tahoma, sans-serif  
+            margin-top: 2.8rem
+.allInclusive
+    background-color: #f5f5f5
+    &-header
+        text-align: center
+        color: $icon-green
+        margin-bottom: 4rem
+    &-subtitle
+        text-align: center
+        font-size: 1.6rem
+        font-family: "ProximaNovaRg", Tahoma, sans-serif 
+        margin-bottom: 10rem
+    &-circle
+        display: inline-block
+        height: 100%
+        width: 100%
+        font-size: 2rem
+        background-color: $icon-green
+        border-radius: 50%
+        &-border
+            display: inline-block
+            height: 5rem
+            width: 5rem
+            font-family: "ProximaNovaBl", Tahoma, sans-serif 
+            font-size: 2rem
+            line-height: 4rem
+            text-align: center
+            color: white  
+            padding: 0.2rem
+            border: 2px solid $icon-green
+            border-radius: 50%  
+    &-media        
+        min-height: 15rem
+        &-left
+            margin-right: 2rem
+        &-title
+            font-size: 1.6rem
+            font-family: "ProximaNovaBl", Tahoma, sans-serif
+        &-text
+            font-size: 1.3rem
+            font-family: "ProximaNovaRg", Tahoma, sans-serif
+.concerns
+    position: relative
+    &-header
+        text-align: center
+        margin-bottom: 10rem
+    &-block
+        border: 2px solid
+        padding: 5rem
+        min-height: 55rem
+        &-problems
+            border-color: #bdbdbd
+            ul
+                li:before
+                    background: url(../img/cancel-symbol.png) no-repeat center /70%
+        &-solutions
+            border-color: $icon-green
+            ul
+                li:before
+                    background: url(../img/checked-symbol.png) no-repeat center /70%      
+        &-title
+            font-size: 2.1rem
+            font-family: "ProximaNovaBl", Tahoma, sans-serif
+            margin-bottom: 5rem
+            &-problems
+                color: #bdbdbd
+        ul
+            list-style: none
+            padding: 0
+            li  
+                position: relative
+                font-size: 1.6rem
+                font-family: "ProximaNovaRg", Tahoma, sans-serif
+                padding-left: 4rem
+                margin-top: 4rem
+            li:before
+                content: ''
+                position: absolute
+                top: 50% 
+                left: 0
+                transform: translateY(-50%)  
+                width: 3rem
+                height: 3rem               
+    &-img   
+        position: absolute
+        bottom: 0
+        left: 50%
+        transform: translateX(-60%)
+.materials
+    text-align: center
+    &-header   
+        margin-bottom: 10rem
+    &-subtitle
+        font-size: 1.9rem
+        font-family: "ProximaNovaRg", Tahoma, sans-serif  
+        margin-bottom: 10rem  
+    &-block
+        img
+            margin: 0 auto
+        min-height: 35rem
+        &-title
+            margin: 3rem
+            font-size: 2.2rem
+            font-family: "ProximaNovaBl", Tahoma, sans-serif 
+        &-subtitle
+            font-size: 1.9rem
+    &-certificate
+        font-size: 1.6rem
+        color: $icon-green
+        &:hover
+            text-decoration: underline
+            color: $icon-green        
+
+    &-info-block        
+        margin-top: 8rem
+        font-size: 2rem
+        font-family: "ProximaNovaRg", Tahoma, sans-serif
+        a
+            color: $icon-green  
+            text-decoration: underline
+.invite
+    background: url(../img/invite-bg.png) no-repeat right /cover
+    &-header    
+        font-size: 4rem
+    &-subtitle
+        font-size: 2.4rem     
+        font-family: "ProximaNovaRg", Tahoma, sans-serif
+    &-form
+        &-button
+            height: 6.5rem
+            width: 100%
+            font-size: 1.4rem
+.additional 
+    color: #fff
+    background-color: #286b0a
+    &-header
+        text-align: center
+        margin-bottom: 5rem
+    &-subtitle
+        text-align: center
+        font-size: 1.9rem
+        font-family: "ProximaNovaRg", Tahoma, sans-serif
+        margin-bottom: 6rem
+    &-block
+        min-height: 30rem
+        text-align: center   
+        margin-bottom: 6rem     
+        img
+            width: 100%
+            max-width: 30rem
+        &-title            
+            min-height: 5rem
+            font-size: 2rem            
+            margin: 3rem
+        &-button
+            font-size: 1.6rem
+.contacts
+    font-family: "ProxamaNovaRg", Tahoma, sans-serif
+    background: url(/img/contacts-bg.png) no-repeat center /cover   
+    &-header
+        font-family: "ProxamaNovaBl", Tahoma, sans-serif
+        margin-bottom: 6rem
+    p
+        font-size: 1.8rem
+    &-map
+        margin: 3rem 0 3rem 0
+    &-phone
+        strong
+            font-family: "ProxamaNovaBl", Tahoma, sans-serif
+    &-email
+        margin: 3rem 0 3rem 0
+        a
+            text-decoration: underline
+            color: #000
+    &-form
+        font-size: 1.8rem
+        &-title
+            margin-bottom: 3rem
+        &-textarea
+            height: 10rem
+        &-button
+            padding: 0
+.footer 
+    margin-top: 4rem
+    margin-bottom: 4rem
+    &-block
+        &-contacts            
+            text-align: center
+            &-phone
+                font-size: 2rem
+                font-family: "ProximaNovaBl", Tahoma, sans-serif
+                margin-bottom: 1rem
+            &-email, &-times
+                font-size: 1.3rem
+                font-family: "ProxamaNovaRg", Tahoma, sans-serif
+                text-decoration: underline
+                margin: 0
+        &-dev
+            text-align: right
+            &-text
+                margin-bottom: 0
+    &-del-padding
+        padding: 0
+    &-logo
+        padding-top: 1rem
+
+
+@media (max-width: 1200px)
+    .price-block-header-wrapper    
+        height: 2rem   
+    .feedback
+        &-header
+            margin-bottom: 10rem
+        &-form
+            padding: 3rem 5rem
+            &-title
+                font-size: 2.1rem
+        &-hand 
+            max-width: 35rem
+    .scheme
+        background: #fff url(../img/scheme-bg.png) no-repeat bottom -11rem right -25rem /70rem
+    .concerns        
+        &-block            
+            min-height: 65rem
+@media (max-width: 991px)
+    .phone-block
+      text-align: center 
+    .main       
+        background: #ffffff url(../img/main-bg.jpg) no-repeat top right/cover 
+        &-content
+            margin-top: 5rem
+            text-align: center
+        &-title 
+            margin-bottom: 3rem
+        &-subtitle
+            margin-bottom: 3rem
+        &-form
+            margin-top: 5rem
+    .price
+        &-header
+            margin-bottom: 3rem
+        &-subtitle
+            margin-bottom: 5rem
+        &-block 
+            padding-bottom: 0
+            &-header-wrapper
+                margin-bottom: 5rem
+            &-img-cell   
+                padding-top: 100px                  
+                img  
+                    max-height: 100%
+                    max-width: 100%
+            button
+                width: 80%           
+        &-list
+            min-height: 20rem
+    .fotorama
+        margin-bottom: 2rem
+    .feedback        
+        &-hand 
+            max-width: 25rem 
+    .allInclusive
+        padding-bottom: 0   
+    .concerns       
+        &-img
+            display: none
+    .invite
+        background-position: center 
+        &-header    
+            text-align: center
+    .additional
+        &-block
+            img
+                width: 100%
+                max-width: 60%
+    .contacts
+        text-align: center
+@media (max-width: 767px)
+    .main       
+        background: #ffffff url(../img/main-bg.jpg) no-repeat top right/cover 
+        text-align: center
+        &-content
+            margin-top: 15rem
+            text-align: center
+        &-title 
+            margin-bottom: 2rem
+        &-subtitle
+            margin-bottom: 3rem
+        &-form
+            margin-top: 5rem
+    .button
+        &-wrap
+            &-form
+                text-align: center
+    .price 
+        button
+            margin-bottom: 4rem
+        &-block 
+            margin-bottom: 2rem
+            &-header-wrapper
+                margin-bottom: 2rem
+            &-img-cell    
+                padding-top: 200px                  
+                img                
+                    max-height: 80%
+                    max-width: 80%
+        &-list
+            min-height: 15rem  
+    .scheme
+        background: none
+        &-item  
+            text-align: center
+    .allInclusive
+        &-media        
+            min-height: 8rem
+        &-header        
+            margin-bottom: 4rem
+        &-subtitle
+            margin-bottom: 5rem
+    .concerns        
+        &-block            
+            min-height: auto
+            margin-bottom: 2rem
+    .footer
+        text-align: center
+        &-block
+            &-contacts
+                margin: 2rem
+            &-dev
+                text-align: center
+        padding-bottom: 4rem
+    
+@media (max-width: 576px)
+    .main
+        background: #ffffff url(../img/main-bg.jpg) no-repeat top right/cover 
+        &-title
+            font-size: 2rem
+        &-subtitle
+            font-size: 1.5rem 
+    .feedback-slider-button
+        img
+            width: 30%
+        &-prev
+            left: 0rem   
+        &-next
+            right: 0rem 
+    .additional 
+        &-block
+            margin-bottom: 2rem
+            &-title
+                min-height: 0
